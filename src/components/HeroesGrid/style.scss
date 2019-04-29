@@ -1,0 +1,45 @@
+.heroes-grid {
+  text-align: center;
+  flex: 1 1 30%;
+}
+
+.heroes-grid__ttl {
+  margin: 0 0 5px;
+}
+
+.heroes-grid__list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  li {
+    padding: 5px;
+    margin: 5px;
+    opacity: 0.2;
+
+    &.active {
+      opacity: 1;
+    }
+
+    img {
+      vertical-align: middle;
+    }
+  }
+}
+
+@media all and (max-width: 500px) {
+  .heroes-grid__ttl {
+    font-size: 16px;
+  }
+  .heroes-grid__list {
+    padding: 5px;
+
+    li {
+      padding: 3px;
+      margin: 2px;
+    }
+  }
+}

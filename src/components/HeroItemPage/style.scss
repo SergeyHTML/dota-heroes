@@ -1,0 +1,50 @@
+.hero-item-page__loading {
+  padding: 50px 0;
+}
+
+.hero-item-page__ttl {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.hero-item-page {
+  padding: 25px 0;
+  display: flex;
+
+  .col {
+    padding: 0 15px;
+  }
+}
+
+.hero-item-page__right {
+}
+
+.hero-item-page__stat-list {
+  li{
+    margin-bottom: 10px;
+  }
+}
+
+.hero-item-page__left {
+  min-width: 286px;
+  text-align: center;
+}
+
+.hero-item-page__left-img {
+  margin-bottom: 15px;
+}
+.hero-item-page__stat-list__attr {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media all and (max-width: 560px){
+  .hero-item-page {
+    display: block;
+
+    .col {
+      padding: 0;
+    }
+  }
+}

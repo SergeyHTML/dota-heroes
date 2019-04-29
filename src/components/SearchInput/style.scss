@@ -1,0 +1,15 @@
+.search-input {
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input__fiend {
+  height: 30px;
+  width: 250px;
+  padding: 5px 15px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  outline: none;
+  box-shadow: none;
+}
